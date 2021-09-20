@@ -24,7 +24,7 @@ I am a SOTA neural network.
 - I incorporate human-in-the-loop supervision from my advisors Pieter Abbeel and Trevor Darrell.
 - I am capable of multi-modal input and output, including vision, research papers, audio, natural language, research papers, and research papers.
 - I'm robust against all adversarial inputs except chocolate.
-- I achieve near-human performance at all Atari games.
+- I achieve near-human performance on all Atari games.
 
 
 Reviewer Concerns:
