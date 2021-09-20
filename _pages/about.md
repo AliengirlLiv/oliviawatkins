@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: SOMETHING MORE INTERESTING PhD student at UC Berkeley
+description: 
 
 profile:
   align: right
