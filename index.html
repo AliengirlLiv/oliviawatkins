@@ -179,7 +179,7 @@
 
 <p><strong>What are my research interests?</strong></p>
 
-<p>The research question I’m most excited about is how to enable humans to teach robots tasks with efficient, natural, low-effort supervision.  More concretely, I’m enthusiastic about human-in-the-loop teaching for robotics and unsupervised representation learning methods which will enable robots to learn representations from large-scale data which can make task-specific human supervision downstream more efficient.</p>
+<p>The research question I’m most excited about is how to enable humans to teach agents with efficient, natural, low-effort supervision.  More concretely, I’m enthusiastic about human-in-the-loop teaching for BC/RL and using large pretrained models to incorporate human priors into the agent's learning process, as well as interpretability work which lets us better understand what our models are learning.</p>
 
 <p><strong>Do you have a life outside of research?</strong></p>
 
@@ -202,92 +202,26 @@
   
   </div>
 
-  <div id="teachable" class="col-sm-8">
+  <div id="ellm" class="col-sm-8">
     
       <div class="title">Teachable Reinforcement Learning via Advice Distillation</div>
       <div class="author">
-        
-          
-          
-          
-          
-          
-          
-            
-              
-                <em>Watkins, Olivia</em>,
-              
-            
-          
-        
-          
-          
-          
-          
-          
-          
-            
-              
-                
+                Du*, Yuqing
+                <em>Watkins*, Olivia</em>,
+                  Wang, Zihan,
+                  Colas, Cédric,
                   Darrel, Trevor,
-                
-              
-            
-          
-        
-          
-          
-          
-          
-          
-          
-            
-              
-                
                   Abbeel, Pieter,
-                
-              
-            
-          
-        
-          
-          
-          
-          
-          
-          
-            
-              
-                
-                  Andreas, Jacob,
-                
-              
-            
-          
-        
-          
-          
-          
-          
-          
-          
-            
-              
-                
-                  and Gupta, Abhishek (final author order tbd)
-                
-              
-            
-          
-        
+                  Gupta, Abhishek,
+                  and Andreas, Jacob,
       </div>
 
       <div class="periodical">
       
-        <em>NeurIPS 2021</em>
+        <em>Under Review at ICML</em>
       
       
-        2021
+        2023
       
       </div>
     
@@ -295,25 +229,48 @@
     <div class="links">
     
       <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
-    
-    
-    
-    
-    
-    
-    
-    
-      <a href="https://github.com/AliengirlLiv/teachable" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-    
-    
-    
-    
+
+      <!-- <a href="https://arxiv.org/abs/2203.11197" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a> -->
+      <!-- <a href="https://github.com/AliengirlLiv/teachable" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a> -->
     </div>
 
     <!-- Hidden abstract block -->
     
     <div class="abstract hidden">
-      <p>We introduce a human-in-the-loop supervision scheme in which an agent first learns to interpret human advice, which can be composed to coach the agent through complex tasks. The agent then distills an advice-independent policy. This lets us train policies on new tasks with less human effort than would be require to train policies through behavioral cloning or reinforcement learning. (Note: our paper will be arXived soon.)</p>
+      <p>We introduce a human-in-the-loop supervision scheme in which an agent first learns to interpret human advice, which can be composed to coach the agent through complex tasks. The agent then distills an advice-independent policy. This lets us train policies on new tasks with less human effort than would be require to train policies through behavioral cloning or reinforcement learning. (arxiv release soon) </p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+
+  <div id="diffusion" class="col-sm-8">
+    
+      <div class="title">Aligning Text-to-Image Models using Human Feedback</div>
+      <div class="author">
+        Lee, Kimin; Liu Hao; Ryu, Moonkyung; <em>Watkins, Olivia</em>; Du, Yuqing; Boutilier, Craig; Abbeel, Pieter; Ghavamzadeh, Mohammad; Gu, Shixiang Shane
+      </div>
+
+      <div class="periodical">
+      
+        <em>Under Review at ICML</em>
+      
+      
+        2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>We explore the challenges and opportunities in using human feedback to finetune Stable Diffusion, a text-to-vision generative model. We observe that by training a correctness classifier on human feedback we can improve prompt-image alignment through rejection sampling. We can improve text-image alignment further through finetuning, but at the cost of decreases in diversity and image quality.</p>
     </div>
     
 
@@ -345,7 +302,7 @@
             
               
                 
-                  Du *, Yuqing,
+                  Du *, Yuqing;
                 
               
             
@@ -359,7 +316,7 @@
           
             
               
-                <em>Watkins*, Olivia</em>,
+                <em>Watkins*, Olivia</em>;
               
             
           
@@ -373,7 +330,7 @@
             
               
                 
-                  Darrell, Trevor,
+                  Darrell, Trevor;
                 
               
             
@@ -388,7 +345,7 @@
             
               
                 
-                  Abbeel, Pieter,
+                  Abbeel, Pieter;
                 
               
             
@@ -476,7 +433,7 @@
             
               
                 
-                  Frost, Julius,
+                  Frost, Julius;
                 
               
             
@@ -490,7 +447,7 @@
           
             
               
-                <em>Watkins, Olivia</em>,
+                <em>Watkins, Olivia</em>;
               
             
           
@@ -504,22 +461,7 @@
             
               
                 
-                  Weiner, Eric,
-                
-              
-            
-          
-        
-          
-          
-          
-          
-          
-          
-            
-              
-                
-                  Abbeel, Pieter,
+                  Weiner, Eric;
                 
               
             
@@ -534,7 +476,7 @@
             
               
                 
-                  Darrell, Trevor,
+                  Abbeel, Pieter;
                 
               
             
@@ -549,7 +491,22 @@
             
               
                 
-                  Plummer, Bryan,
+                  Darrell, Trevor;
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Plummer, Bryan;
                 
               
             
@@ -585,6 +542,7 @@
     <div class="links">
     
       <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
+      <a href="https://arxiv.org/abs/2201.12462" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
     
     
     
@@ -635,7 +593,7 @@
             
               
                 
-                  Drissi, Mehdi,
+                  Drissi, Mehdi;
                 
               
             
@@ -649,7 +607,7 @@
           
             
               
-                <em>Watkins, Olivia</em>,
+                <em>Watkins, Olivia</em>;
               
             
           
@@ -734,7 +692,7 @@
             
               
                 
-                  Drissi*, Mehdi,
+                  Drissi*, Mehdi;
                 
               
             
@@ -748,7 +706,7 @@
           
             
               
-                <em>Watkins*, Olivia</em>,
+                <em>Watkins*, Olivia</em>;
               
             
           
@@ -762,22 +720,7 @@
             
               
                 
-                  Khant, Aditya,
-                
-              
-            
-          
-        
-          
-          
-          
-          
-          
-          
-            
-              
-                
-                  Ojha, Vivaswat,
+                  Khant, Aditya;
                 
               
             
@@ -792,7 +735,7 @@
             
               
                 
-                  Sandoval, Pedro,
+                  Ojha, Vivaswat;
                 
               
             
@@ -807,7 +750,7 @@
             
               
                 
-                  Segev, Rakia,
+                  Sandoval, Pedro;
                 
               
             
@@ -822,7 +765,22 @@
             
               
                 
-                  Weiner, Eric,
+                  Segev, Rakia;
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Weiner, Eric;
                 
               
             
