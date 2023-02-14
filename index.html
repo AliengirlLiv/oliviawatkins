@@ -238,7 +238,8 @@
     <!-- Hidden abstract block -->
     
     <div class="abstract hidden">
-      <p>We introduce a human-in-the-loop supervision scheme in which an agent first learns to interpret human advice, which can be composed to coach the agent through complex tasks. The agent then distills an advice-independent policy. This lets us train policies on new tasks with less human effort than would be require to train policies through behavioral cloning or reinforcement learning. (arxiv release soon) </p>
+      <p>In open-ended environments, current unsupervised exploration methods for RL will spend most of their time exploring actions which are nonsensical or undesirable. We add human common-sense priors to the exploration process by captioning the agent's current state in language and querying a large language model (LLM) for suggestions on useful affordances to explore in the environment. We reward the agent for achiving novel goals suggested by the LLM.
+      (arxiv/code release soon) </p>
     </div>
     
 
