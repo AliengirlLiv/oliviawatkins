@@ -167,19 +167,19 @@
 <p><strong>What are my research interests?</strong></p>
 
 <p>
-I'm excited about designing RL and IL agents which can learn from humans, reason reliably in language, and solve open-ended problems.
+I'm excited about designing agents which can learn from humans, reason correctly in language, solve open-ended problems, and act safely and reliably in the world.
 Interesting research question in this space include:
 <ul>
   <li>How can we design agents which can learn efficiently from supervision (both from humans and (V)LLMs with common-sense understanding)?</li>
   <li>Can designing agents which reason in language enable generalization and make it easier for humans to supervise and correct agents?</li>
   <li>How can we enable language agents to learn from experience while maintaining correct, common-sense reasoning?</li>
-  <li>How can we design agents which can act safely and robustly online (and in similar sensitive envs), especially in the presence of adversaries?</li>
+  <li>How can we design agents which can act safely and robustly on the web (and in similar sensitive envs), especially in the presence of adversaries?</li>
 </ul>
 
 
 <p><strong>Do you have a life outside of research?</strong></p>
 
-<p>In my spare time I play Quidditch, hang out with friends, make mediocre puns, and procrastinate on keeping my website up to date.</p>
+<p>In my spare time I play Quidditch and D&D, hang out with friends, make mediocre puns, and procrastinate on keeping my website up to date.</p>
 
 
     </div>
@@ -191,11 +191,88 @@ Interesting research question in this space include:
   <h2>publications</h2>
   <ol class="bibliography">
 
+    <li><div class="row">
+      <div class="col-sm-2 abbr">
+        <abbr class="badge">Under review ICML</abbr>
+      </div>
+      <div id="strongreject" class="col-sm-8">
+          <div class="title">A StrongREJECT for Empty Jailbreaks</div>
+          <div class="author">
+            Alexandra Souly*, 
+            Qingyuan Lu*, 
+            Dillon Bowen*, 
+            Tu Trinh, 
+            Elvis Hsieh, 
+            Sana Pandey, 
+            Pieter Abbeel, 
+            Justin Svegliato, 
+            Scott Emmons*, 
+            <em></em>Olivia Watkins*</em>, 
+            Sam Toyer*
+          </div>
+          <div class="periodical">
+            <em>Under Review at ICML</em>
+            2024
+          </div>
+        <div class="links">
+          <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
+          <a href="https://arxiv.org/abs/2402.10260" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+          <a href="https://github.com/alexandrasouly/strongreject" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+        </div>
+        <div class="abstract hidden">
+          <p>"Jailbreaks" let people use LLMs maliciously. 
+            We show that prior jailbreak benchmarks have issues (vague or unanswerable questions, grading criteria that are give full credit for low-quality model response, etc.) 
+            Some jailbreak techniques make the problem worse by decreasing the quality of model responses even on benign questions: we show that several jailbreaking techniques substantially reduce the zero-shot performance of GPT-4 on MMLU. 
+            Our benchmark, StrongREJECT uses a higher-quality question set and a more accurate response grading algorithm. 
+            Our new grading scheme better matches with human judgment, especially on the sort of low-quality responses that contribute the most to over-estimation of jailbreak performance on existing benchmarks.
+        </p>
+        </div>
+      </div>
+    </div>
+    </li>
+    
+
+    <li><div class="row">
+      <div class="col-sm-2 abbr">
+        <abbr class="badge">Under Review ICML</abbr>
+      </div>
+      <div id="dynalang" class="col-sm-8">
+          <div class="title">Learning to Model the World with Language</div>
+          <div class="author">
+            Jessy Lin,
+            Yuqing Du,
+            <em>Olivia Watkins</em>,
+            Danijar Hafner,
+            Pieter Abbeel,
+            Dan Klein,
+            and Anca Dragan
+          </div>
+          <div class="periodical">
+            <em>Under Review at ICML</em>
+            2024   
+          </div>
+        <div class="links">
+          <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
+          <a href="https://arxiv.org/abs/2308.01399" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+          <a href="https://github.com/jlin816/dynalang" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+        </div>
+        <div class="abstract hidden">
+          <p>Language helps agents predict the future: what will be observed, how the world will behave, and which situations will be rewarded. 
+            This perspective unifies language understanding with future prediction as a powerful self-supervised learning objective. 
+            Our agent, Dynalang, learns a multimodal world model that predicts future text and image representations. 
+            Dynalang is able to understand rich language forms and is amenable to text-only or video-only pretraining.
+        </p>
+        </div>
+      </div>
+    </div>
+    </li>
+    
+
 <li><div class="row">
   <div class="col-sm-2 abbr">
-    <abbr class="badge">Under Review ICLR</abbr>
+    <abbr class="badge">ICLR 2024</abbr>
   </div>
-  <div id="ellm" class="col-sm-8">
+  <div id="tensortrust" class="col-sm-8">
       <div class="title">Tensor Trust: Interpretable Prompt Injection Attacks from an Online Game</div>
       <div class="author">
         Sam Toyer,
@@ -212,7 +289,7 @@ Interesting research question in this space include:
         and Stuart Russell
       </div>
       <div class="periodical">
-        <em>Under Review at ICLR</em>
+        <em>ICLR</em>
         2024   
       </div>
     <div class="links">
@@ -232,40 +309,6 @@ Interesting research question in this space include:
 </li>
 
 
-<li><div class="row">
-  <div class="col-sm-2 abbr">
-    <abbr class="badge">Under Review ICLR</abbr>
-  </div>
-  <div id="ellm" class="col-sm-8">
-      <div class="title">Learning to Model the World with Language</div>
-      <div class="author">
-        Jessy Lin,
-        Yuqing Du,
-        <em>Olivia Watkins</em>,
-        Danijar Hafner,
-        Pieter Abbeel,
-        Dan Klein,
-        and Anca Dragan
-      </div>
-      <div class="periodical">
-        <em>Under Review at ICLR</em>
-        2024   
-      </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
-      <a href="https://arxiv.org/abs/2308.01399" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
-      <a href="https://github.com/jlin816/dynalang" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-    </div>
-    <div class="abstract hidden">
-      <p>Language helps agents predict the future: what will be observed, how the world will behave, and which situations will be rewarded. 
-        This perspective unifies language understanding with future prediction as a powerful self-supervised learning objective. 
-        Our agent, Dynalang, learns a multimodal world model that predicts future text and image representations. 
-        Dynalang is able to understand rich language forms and is amenable to text-only or video-only pretraining.
-    </p>
-    </div>
-  </div>
-</div>
-</li>
 
 
 <li><div class="row">
